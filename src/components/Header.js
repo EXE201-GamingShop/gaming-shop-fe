@@ -9,13 +9,13 @@ const Header = () => {
         <Row>
           <Col>
             <nav className="main-nav">
-              <a href="index.html" className="logo">
+              <Nav.Link as={NavLink} to={"/"} className="logo">
                 <img
                   src="assets/images/logo.png"
                   alt=""
                   style={{ width: 158 }}
                 />
-              </a>
+              </Nav.Link>
               <ul className="nav">
                 <li>
                   <Nav.Link as={NavLink} to={"/"} className="active">

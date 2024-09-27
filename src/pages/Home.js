@@ -51,7 +51,7 @@ const Home = () => {
               </a>
             </div>
             <div className="col-lg-3 col-md-6">
-              <a href="#">
+              <a href="https://t.me/checkscam_vn">
                 <div className="item">
                   <div className="image">
                     <img

@@ -1,7 +1,7 @@
 import { Footer, Header, JsPreloader } from "./components";
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home, Login, Checkout, Products, ProductDetails } from "./pages";
+import { Home, Login, Checkout, Products, ProductDetails, Register } from "./pages";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route path="/product-details" element={<ProductDetails />} />
           <Route path="/shop" element={<Products />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
         <Footer />
       </BrowserRouter>

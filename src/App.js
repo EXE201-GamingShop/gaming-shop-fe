@@ -1,10 +1,7 @@
 import { Footer, Header, JsPreloader } from "./components";
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from "./pages/Home";
-import Checkout from "./pages/Checkout";
-import ProductDetails from "./pages/ProductDetails";
-import Products from "./pages/Products";
+import { Home, Login, Checkout, Products, ProductDetails } from "./pages";
 
 function App() {
   return (

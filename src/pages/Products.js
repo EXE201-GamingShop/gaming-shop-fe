@@ -19,16 +19,16 @@ const Products = () => {
                 <div className="container">
                     <ul className="trending-filter">
                         <li>
-                            <Link className="is_active" to="/" data-filter="*">Show All</Link>
+                            <a className="is_active" href="#!" data-filter="*">Show All</a>
                         </li>
                         <li>
-                            <Link to="/" data-filter=".adv">Adventure</Link>
+                            <a href="#!" data-filter=".adv">Adventure</a>
                         </li>
                         <li>
-                            <Link to="/" data-filter=".str">Strategy</Link>
+                            <a href="#!" data-filter=".str">Strategy</a>
                         </li>
                         <li>
-                            <Link to="/" data-filter=".rac">Racing</Link>
+                            <a href="#!" data-filter=".rac">Racing</a>
                         </li>
                     </ul>
                     <div className="row trending-box">

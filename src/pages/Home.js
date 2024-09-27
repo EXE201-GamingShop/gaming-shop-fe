@@ -18,7 +18,7 @@ const Home = () => {
                       style={{ maxWidth: 44 }}
                     />
                   </div>
-                  <h4>Free Storage</h4>
+                  <h4>Giới thiệu</h4>
                 </div>
               </a>
             </div>
@@ -32,7 +32,7 @@ const Home = () => {
                       style={{ maxWidth: 44 }}
                     />
                   </div>
-                  <h4>User More</h4>
+                  <h4>Tài khoản</h4>
                 </div>
               </a>
             </div>
@@ -46,7 +46,7 @@ const Home = () => {
                       style={{ maxWidth: 44 }}
                     />
                   </div>
-                  <h4>Reply Ready</h4>
+                  <h4>Thông tin</h4>
                 </div>
               </a>
             </div>
@@ -60,7 +60,7 @@ const Home = () => {
                       style={{ maxWidth: 44 }}
                     />
                   </div>
-                  <h4>Easy Layout</h4>
+                  <h4>Check giao dịch</h4>
                 </div>
               </a>
             </div>

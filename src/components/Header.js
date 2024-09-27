@@ -13,23 +13,28 @@ const Header = () => {
                 <img
                   src="assets/images/logo.png"
                   alt=""
-                  style={{ width: 158 }}
+                  style={{ width: 300 }}
                 />
               </Nav.Link>
               <ul className="nav">
                 <li>
                   <Nav.Link as={NavLink} to={"/"} className="active">
-                    Home
+                    Trang chủ
                   </Nav.Link>
                 </li>
                 <li>
                   <Nav.Link as={NavLink} to={"/shop"}>
-                    Our shop
+                    Sản phẩm
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link as={NavLink} to={"/donate"}>
+                    Nạp tiền
                   </Nav.Link>
                 </li>
                 <li>
                   <Nav.Link as={NavLink} to={"/contact"}>
-                    Contact Us
+                    Hỗ trợ
                   </Nav.Link>
                 </li>
                 <li>

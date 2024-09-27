@@ -1,49 +1,11 @@
-import { JsPreloader } from "./components";
+import { Footer, Header, JsPreloader } from "./components";
 
 
 function App() {
   return (
     <div classname="App">
       <JsPreloader />
-      <header className="header-area header-sticky">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <nav className="main-nav">
-                <a href="index.html" className="logo">
-                  <img
-                    src="assets/images/logo.png"
-                    alt=""
-                    style={{ width: 158 }}
-                  />
-                </a>
-                <ul className="nav">
-                  <li>
-                    <a href="index.html" className="active">
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="shop.html">Our Shop</a>
-                  </li>
-                  <li>
-                    <a href="product-details.html">Product Details</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="login.html">Sign In</a>
-                  </li>
-                </ul>
-                <a className="menu-trigger">
-                  <span>Menu</span>
-                </a>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header />
       <div className="main-banner">
         <div className="container">
           <div className="row">
@@ -450,19 +412,7 @@ function App() {
           </div>
         </div>
       </div>
-      <footer>
-        <div className="container">
-          <div className="col-lg-12">
-            <p>
-              Copyright © 2048 LUGX Gaming Company. All rights reserved.
-              &nbsp;&nbsp;{"{"}" "{"}"}
-              <a rel="nofollow" href="https://templatemo.com" target="_blank">
-                Design: TemplateMo
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

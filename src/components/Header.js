@@ -18,7 +18,7 @@ const Header = () => {
               </Nav.Link>
               <ul className="nav">
                 <li>
-                  <Nav.Link as={NavLink} to={"/"} className="active">
+                  <Nav.Link as={NavLink} to={"/"}>
                     Home
                   </Nav.Link>
                 </li>

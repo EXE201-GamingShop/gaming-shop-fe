@@ -1,11 +1,13 @@
 import React from "react";
+import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="header-area header-sticky">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
+      <Container>
+        <Row>
+          <Col>
             <nav className="main-nav">
               <a href="index.html" className="logo">
                 <img
@@ -16,30 +18,33 @@ const Header = () => {
               </a>
               <ul className="nav">
                 <li>
-                  <a href="index.html" className="active">
+                  <Nav.Link as={NavLink} to={"/"} className="active">
                     Home
-                  </a>
+                  </Nav.Link>
                 </li>
                 <li>
-                  <a href="shop.html">Our Shop</a>
+                  <Nav.Link as={NavLink} to={"/shop"}>
+                    Our shop
+                  </Nav.Link>
                 </li>
                 <li>
-                  <a href="product-details.html">Product Details</a>
+                  <Nav.Link as={NavLink} to={"/contact"}>
+                    Contact Us
+                  </Nav.Link>
                 </li>
                 <li>
-                  <a href="contact.html">Contact Us</a>
-                </li>
-                <li>
-                  <a href="login.html">Sign In</a>
+                  <Nav.Link as={NavLink} to={"/login"}>
+                    Sign In
+                  </Nav.Link>
                 </li>
               </ul>
               <a className="menu-trigger">
                 <span>Menu</span>
               </a>
             </nav>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </header>
   );
 };

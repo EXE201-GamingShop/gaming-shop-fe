@@ -371,6 +371,8 @@ Header Style
   display: block;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   border-radius: 20px;
   font-weight: 300;
   font-size: 15px;
@@ -387,13 +389,13 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #ee626b;
-  text-transform: uppercase;
-  font-weight: 500;
+  background-color: #ee626b !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
 }
 
 .header-area .main-nav .nav li:last-child:hover a {
-  background-color: #ee626b;
+  background-color: #ee626b !important;
 }
 
 .header-area .main-nav .nav li:hover a {

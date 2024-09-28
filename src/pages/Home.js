@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="item">
                   <div className="image">
                     <img
-                      src="assets/images/featured-01.png"
+                      src="assets/images/introduction.png"
                       alt=""
                       style={{ maxWidth: 44 }}
                     />
@@ -41,7 +41,7 @@ const Home = () => {
                 <div className="item">
                   <div className="image">
                     <img
-                      src="assets/images/featured-03.png"
+                      src="assets/images/information-sign.png"
                       alt=""
                       style={{ maxWidth: 44 }}
                     />
@@ -64,12 +64,13 @@ const Home = () => {
                 </div>
               </a>
             </div>
+
             <div className="col-lg-6 col-md-12 mt-5">
               <a href="#">
                 <div className="item">
                   <div className="image">
                     <img
-                      src="assets/images/featured-01.png"
+                      src="assets/images/money-transfer.png"
                       alt=""
                       style={{ maxWidth: 44 }}
                     />
@@ -83,7 +84,7 @@ const Home = () => {
                 <div className="item">
                   <div className="image">
                     <img
-                      src="assets/images/featured-01.png"
+                      src="assets/images/support.png"
                       alt=""
                       style={{ maxWidth: 44 }}
                     />
@@ -92,6 +93,7 @@ const Home = () => {
                 </div>
               </a>
             </div>
+
           </div>
         </div>
       </div>

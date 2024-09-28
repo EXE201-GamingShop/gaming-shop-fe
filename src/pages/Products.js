@@ -35,21 +35,41 @@ const Products = () => {
                   {/* categories */}
                   <h1 className="title text-center">Nick liên quân tự chọn</h1>
                   <div className="row trending-box" style={{paddingBottom: "40px"}}>
-                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
-                        <div className="item">
-                            <div className="thumb">
-                                <Link to="/#">
-                                    <img 
-                                        src="assets/images/500k.jpg" 
-                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
-                                        alt="" 
-                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
-                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
-                                    />
-                                </Link>
+                  <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                    <div className="item">
+                        <div className="thumb" style={{ position: "relative" }}>
+                            <Link to="/#">
+                                <img
+                                    src="assets/images/500k.jpg" 
+                                    style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                    alt="" 
+                                    onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                    onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    fluid 
+                                />
+                            </Link>
+                          
+                            <div style={{ 
+                                position: "absolute", 
+                                bottom: "10px", 
+                                right: "10px", 
+                                backgroundColor: "#008af8", 
+                                color: "white", 
+                                padding: "5px 5px",  
+                                borderRadius: "8px", 
+                                display: "flex", 
+                                alignItems: "center",
+                                justifyContent: "center",
+                                width: "120px",  
+                                fontSize: "9px"  
+                            }}>
+                                <span>Đã bán: 4.9K</span>
+                                <span style={{ margin: "0 4px" }}>|</span>
+                                <span>Xem: 9.9K</span>
                             </div>
                         </div>
                     </div>
+                </div>
                     <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
                         <div className="item">
                             <div className="thumb">
@@ -62,6 +82,24 @@ const Products = () => {
                                         onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                                     />
                                 </Link>
+                                <div style={{ 
+                                    position: "absolute", 
+                                    bottom: "10px", 
+                                    right: "10px", 
+                                    backgroundColor: "#008af8", 
+                                    color: "white", 
+                                    padding: "5px 5px",  
+                                    borderRadius: "8px", 
+                                    display: "flex", 
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "120px",  
+                                    fontSize: "9px"  
+                                }}>
+                                    <span>Đã bán: 4.9K</span>
+                                    <span style={{ margin: "0 4px" }}>|</span>
+                                    <span>Xem: 9.9K</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,6 +115,24 @@ const Products = () => {
                                         onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                                     />
                                 </Link>
+                                <div style={{ 
+                                    position: "absolute", 
+                                    bottom: "10px", 
+                                    right: "10px", 
+                                    backgroundColor: "#008af8", 
+                                    color: "white", 
+                                    padding: "5px 5px",  
+                                    borderRadius: "8px", 
+                                    display: "flex", 
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "120px",  
+                                    fontSize: "9px"  
+                                }}>
+                                    <span>Đã bán: 4.9K</span>
+                                    <span style={{ margin: "0 4px" }}>|</span>
+                                    <span>Xem: 9.9K</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,6 +148,24 @@ const Products = () => {
                                         onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                                     />
                                 </Link>
+                                <div style={{ 
+                                    position: "absolute", 
+                                    bottom: "10px", 
+                                    right: "10px", 
+                                    backgroundColor: "#008af8", 
+                                    color: "white", 
+                                    padding: "5px 5px",  
+                                    borderRadius: "8px", 
+                                    display: "flex", 
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "120px",  
+                                    fontSize: "9px"  
+                                }}>
+                                    <span>Đã bán: 4.9K</span>
+                                    <span style={{ margin: "0 4px" }}>|</span>
+                                    <span>Xem: 9.9K</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -111,6 +185,24 @@ const Products = () => {
                                         onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                                     />
                                 </Link>
+                                <div style={{ 
+                                    position: "absolute", 
+                                    bottom: "10px", 
+                                    right: "10px", 
+                                    backgroundColor: "#008af8", 
+                                    color: "white", 
+                                    padding: "5px 5px",  
+                                    borderRadius: "8px", 
+                                    display: "flex", 
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "120px",  
+                                    fontSize: "9px"  
+                                }}>
+                                    <span>Đã bán: 4.9K</span>
+                                    <span style={{ margin: "0 4px" }}>|</span>
+                                    <span>Xem: 9.9K</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -126,6 +218,24 @@ const Products = () => {
                                         onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                                     />
                                 </Link>
+                                <div style={{ 
+                                    position: "absolute", 
+                                    bottom: "10px", 
+                                    right: "10px", 
+                                    backgroundColor: "#008af8", 
+                                    color: "white", 
+                                    padding: "5px 5px",  
+                                    borderRadius: "8px", 
+                                    display: "flex", 
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "120px",  
+                                    fontSize: "9px"  
+                                }}>
+                                    <span>Đã bán: 4.9K</span>
+                                    <span style={{ margin: "0 4px" }}>|</span>
+                                    <span>Xem: 9.9K</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -141,6 +251,24 @@ const Products = () => {
                                         onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                                     />
                                 </Link>
+                                <div style={{ 
+                                    position: "absolute", 
+                                    bottom: "10px", 
+                                    right: "10px", 
+                                    backgroundColor: "#008af8", 
+                                    color: "white", 
+                                    padding: "5px 5px",  
+                                    borderRadius: "8px", 
+                                    display: "flex", 
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "120px",  
+                                    fontSize: "9px"  
+                                }}>
+                                    <span>Đã bán: 4.9K</span>
+                                    <span style={{ margin: "0 4px" }}>|</span>
+                                    <span>Xem: 9.9K</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -160,6 +288,24 @@ const Products = () => {
                                         onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                                     />
                                 </Link>
+                                <div style={{ 
+                                    position: "absolute", 
+                                    bottom: "10px", 
+                                    right: "10px", 
+                                    backgroundColor: "#008af8", 
+                                    color: "white", 
+                                    padding: "5px 5px",  
+                                    borderRadius: "8px", 
+                                    display: "flex", 
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "120px",  
+                                    fontSize: "9px"  
+                                }}>
+                                    <span>Đã bán: 4.9K</span>
+                                    <span style={{ margin: "0 4px" }}>|</span>
+                                    <span>Xem: 9.9K</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -175,6 +321,24 @@ const Products = () => {
                                         onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                                     />
                                 </Link>
+                                <div style={{ 
+                                    position: "absolute", 
+                                    bottom: "10px", 
+                                    right: "10px", 
+                                    backgroundColor: "#008af8", 
+                                    color: "white", 
+                                    padding: "5px 5px",  
+                                    borderRadius: "8px", 
+                                    display: "flex", 
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "120px",  
+                                    fontSize: "9px"  
+                                }}>
+                                    <span>Đã bán: 4.9K</span>
+                                    <span style={{ margin: "0 4px" }}>|</span>
+                                    <span>Xem: 9.9K</span>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -41,7 +41,7 @@ const BannerComponent = () => {
           </Col>
           <Col lg={{span: 4, offset: 2}}>
             <div className="right-image">
-              <img src="assets/images/banner-image.jpg" alt="" className="img-fluid" />
+              <img src="assets/images/lien-quan-moble-s8-3.jpg" alt="" className="img-fluid" />
               <span className="price">$22</span>
               <span className="offer">-40%</span>
             </div>

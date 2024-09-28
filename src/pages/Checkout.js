@@ -93,7 +93,7 @@ const Checkout = () => {
                           <td colSpan="3" className="text-right">
                             Total
                           </td>
-                          <td style={{ color: "#0071f8" }}>$96.00</td>
+                          <td style={{ color: "#0071f8" }}>320,000đ</td>
                         </tr>
                       </tbody>
                     </table>

@@ -28,7 +28,7 @@ const Header = () => {
                   </Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link as={NavLink} to={"/donate"}>
+                  <Nav.Link as={NavLink} to={"/checkout"}>
                     Nạp tiền
                   </Nav.Link>
                 </li>

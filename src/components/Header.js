@@ -18,28 +18,28 @@ const Header = () => {
               </Nav.Link>
               <ul className="nav">
                 <li>
-                  <Nav.Link as={NavLink} to={"/"} className="active">
+                  <Nav.Link as={NavLink} to={"/"} className="active fw-bold">
                     Trang chủ
                   </Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link as={NavLink} to={"/shop"}>
+                  <Nav.Link as={NavLink} to={"/shop"} className="active fw-bold">
                     Sản phẩm
                   </Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link as={NavLink} to={"/checkout"}>
+                  <Nav.Link as={NavLink} to={"/checkout"} className="active fw-bold">
                     Nạp tiền
                   </Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link as={NavLink} to={"/contact"}>
+                  <Nav.Link as={NavLink} to={"/contact"} className="active fw-bold">
                     Hỗ trợ
                   </Nav.Link>
                 </li>
                 <li>
                   <Nav.Link as={NavLink} to={"/login"}>
-                    Sign In
+                    Đăng nhập
                   </Nav.Link>
                 </li>
               </ul>

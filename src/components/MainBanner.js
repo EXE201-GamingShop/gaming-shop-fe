@@ -17,7 +17,7 @@ const BannerComponent = () => {
             <div className="caption header-text">
               <h6>Chào mừng đến với Shop Dịch Vụ Game</h6>
               <h2>Thế giới acc ngon - giá ngọt</h2>
-              <p>{displayText}<p style={{cursor: 'pointer', color: 'black'}} onClick={() => setIsExpanded(!isExpanded)}>
+              <p>{displayText}<p style={{cursor: 'pointer', color: 'white'}} onClick={() => setIsExpanded(!isExpanded)}>
                 {isExpanded ? 'Xem ít hơn' : 'Xem thêm'}
               </p></p>
 

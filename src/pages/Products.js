@@ -34,7 +34,7 @@ const Products = () => {
                   </ul>
                   {/* categories */}
                   <h1 className="title text-center">Nick liên quân tự chọn</h1>
-                  <div className="row trending-box" style={{paddingBottom: "30px"}}>
+                  <div className="row trending-box" style={{paddingBottom: "40px"}}>
                     <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
                         <div className="item">
                             <div className="thumb">
@@ -98,7 +98,7 @@ const Products = () => {
                 </div>
 
                   <h1 className="title text-center">Nick reg liên quân</h1>
-                  <div className="row trending-box" style={{paddingBottom: "30px"}}>
+                  <div className="row trending-box" style={{paddingBottom: "40px"}}>
                     <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
                         <div className="item">
                             <div className="thumb">

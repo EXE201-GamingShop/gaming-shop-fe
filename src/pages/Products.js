@@ -32,6 +32,199 @@ const Products = () => {
                           <a href="#!" data-filter=".rac">Racing</a>
                       </li>
                   </ul>
+                  {/* categories */}
+                  <h1 className="title text-center">Nick liên quân tự chọn</h1>
+                  <div className="row trending-box" style={{paddingBottom: "40px"}}>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/500k.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/1m.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/1m-hon.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/hon3m.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                  <h1 className="title text-center">Nick reg liên quân</h1>
+                  <div className="row trending-box" style={{paddingBottom: "40px"}}>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/500k.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/1m.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/1m-hon.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/hon3m.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                  <h1 className="title text-center">Acc liên quân Vip</h1>
+                  <div className="row trending-box" style={{paddingBottom: "100px"}}>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/500k.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/1m.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/1m-hon.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+                        <div className="item">
+                            <div className="thumb">
+                                <Link to="/#">
+                                    <img 
+                                        src="assets/images/hon3m.jpg" 
+                                        style={{height: "200px", transition: "transform 0.3s ease"}} 
+                                        alt="" 
+                                        onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                                        onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                   <div className="row trending-box">
                       <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
                           <div className="item">

@@ -10,7 +10,6 @@ const Products = () => {
                       <div className="col-lg-12">
                           <h3>Our Shop</h3>
                           <span className="breadcrumb">
-                <Link to="/">Home</Link> Our Shop
               </span>
                       </div>
                   </div>

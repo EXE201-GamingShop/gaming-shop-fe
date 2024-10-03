@@ -75,7 +75,7 @@ const Home = () => {
                       style={{ maxWidth: 44 }}
                     />
                   </div>
-                  <h4>Giao dịch chung gian</h4>
+                  <h4>Giao dịch trung gian</h4>
                 </div>
               </a>
             </div>

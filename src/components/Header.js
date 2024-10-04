@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
+  const { user, setUser, account } = props;
+
+  const fetchUserInfo = async () => {
+    if (user) return;
+    await account.get().then((user) => {
+      console.log('>>> User: ', user);
+      setUser(user);
+    }).catch((err) => {
+      console.error('Error while login: ', err);
+    });
+  }
+
+  useEffect(() => {
+    fetchUserInfo();
+  }, [user]);
+
   return (
     <header className="header-area header-sticky">
       <Container>

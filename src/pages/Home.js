@@ -199,8 +199,10 @@ const Home = () => {
                           onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                       />
                     </Link>
-                    <div style={{padding: "15px", textTransform: "uppercase"}}>BÙNG NỔ CHUỖI SỰ KIỆN CỘNG ĐỒNG TOÀN QUỐC SINH NHẬT LIÊN QUÂN 8 TUỔI
-                      “GOM QUÀ – GÓP SÁNG” | NGÀY 12/10 – 13/10
+                    <div className="news-title">
+                      <div style={{textTransform: "uppercase"}}>CHUỖI SỰ KIỆN CỘNG ĐỒNG TOÀN QUỐC SINH NHẬT LIÊN QUÂN 8 TUỔI
+                        “GOM QUÀ – GÓP SÁNG” | NGÀY 12/10 – 13/10
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -217,7 +219,8 @@ const Home = () => {
                           onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                       />
                     </Link>
-                    <div style={{padding: "15px", textTransform: "uppercase" }}>Tổng hợp chuỗi sự kiện hợp tác thương hiệu: Liên Quân x Demon Slayer: Kimetsu no Yaiba
+                    <div className="news-title">
+                      <div style={{textTransform: "uppercase" }}>Tổng hợp chuỗi sự kiện hợp tác thương hiệu: Liên Quân x Demon Slayer: Kimetsu no Yaiba</div>
                     </div>
                   </div>
                 </div>
@@ -234,7 +237,9 @@ const Home = () => {
                           onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
                       />
                     </Link>
-                    <div style={{padding: "15px", textTransform: "uppercase"}}>11:00 NGÀY 01/10 MỞ BÁN VÉ THAM DỰ CHUNG KẾT ĐTDV MÙA ĐÔNG 2024 (27/10) TẠI TICKETBOX
+                    <div className="news-title">
+                      <div style={{textTransform: "uppercase"}}>11:00 NGÀY 01/10 MỞ BÁN VÉ THAM DỰ CHUNG KẾT ĐTDV MÙA ĐÔNG 2024 (27/10) TẠI TICKETBOX
+                    </div>
                     </div>
                   </div>
                 </div>

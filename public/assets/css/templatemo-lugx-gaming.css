@@ -1670,6 +1670,19 @@ body {
   }
 }
 
+.news-title {
+  min-height: 100px; /* Bạn có thể tùy chỉnh chiều cao này */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Căn giữa nội dung */
+}
+
+.news-title div {
+  padding: 15px;
+  text-transform: uppercase;
+}
+
 @media (max-width: 1200px) {
   
 }

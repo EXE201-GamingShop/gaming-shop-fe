@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer style={{color: "white"}}>
       <div className="container">
         <div className="row" style={{paddingTop: "50px"}}>
           <div className="col-lg-4">
@@ -12,10 +12,10 @@ const Footer = () => {
                   alt=""
                   style={{width: 300}}
               />
-              <h5>
+              <h5 style={{marginTop: "15px"}}>
                 Shop bán acc game số 1 tại Việt Nam với các sản phẩm chất lượng và dịch vụ khách hàng tuyệt vời.
               </h5>
-              <h5 style={{color: "white"}}>Hệ thống bán acc game chuyên nghiệp, cung cấp đa dạng tài khoản từ nhiều tựa
+              <h5 style={{marginTop: "15px"}}>Hệ thống bán acc game chuyên nghiệp, cung cấp đa dạng tài khoản từ nhiều tựa
                 game hot nhất hiện nay.</h5>
             </div>
           </div>

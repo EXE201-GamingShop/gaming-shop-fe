@@ -1,5 +1,6 @@
 import React from "react";
 import { MainBanner } from "../components";
+import {Link} from "react-router-dom";
 
 const Home = () => {
   return (
@@ -103,24 +104,23 @@ const Home = () => {
             <div className="col-lg-6">
               <div className="section-heading">
                 <h6></h6>
-                <h2>Game đang hot</h2>
+                <h2>Sản phẩm đang hot</h2>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="main-button">
-                <a href="shop.html">Xem tất cả</a>
+                <Link to="/shop">Xem tất cả</Link>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="item">
                 <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/trending-01.jpg" alt="" />
-                  </a>
+                  <Link to="/product-details">
+                    <img src="assets/images/lq5.gif" alt="" />
+                  </Link>
                 </div>
                 <div className="down-content">
-                  <span className="category">Hành động</span>
-                  <h4>Assasin Creed</h4>
+                  <h4>Account đang sale</h4>
                   <a href="product-details.html">
                     <i className="fa fa-shopping-bag" />
                   </a>
@@ -130,13 +130,12 @@ const Home = () => {
             <div className="col-lg-3 col-md-6">
               <div className="item">
                 <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/trending-02.jpg" alt="" />
-                  </a>
+                  <Link to="/product-details">
+                    <img src="assets/images/lq2.gif" alt="" />
+                  </Link>
                 </div>
                 <div className="down-content">
-                  <span className="category">Hành động</span>
-                  <h4>Assasin Creed</h4>
+                  <h4>Account giá rẻ</h4>
                   <a href="product-details.html">
                     <i className="fa fa-shopping-bag" />
                   </a>
@@ -146,13 +145,12 @@ const Home = () => {
             <div className="col-lg-3 col-md-6">
               <div className="item">
                 <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/trending-03.jpg" alt="" />
-                  </a>
+                  <Link to="/product-details">
+                    <img src="assets/images/lq3.gif" alt="" />
+                  </Link>
                 </div>
                 <div className="down-content">
-                  <span className="category">Hành động</span>
-                  <h4>Assasin Creed</h4>
+                  <h4>Account trắng thông tin</h4>
                   <a href="product-details.html">
                     <i className="fa fa-shopping-bag" />
                   </a>
@@ -162,173 +160,83 @@ const Home = () => {
             <div className="col-lg-3 col-md-6">
               <div className="item">
                 <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/trending-04.jpg" alt="" />
-                  </a>
+                  <Link to="/product-details">
+                    <img src="assets/images/lq1.gif" alt="" />
+                  </Link>
                 </div>
                 <div className="down-content">
-                  <span className="category">Hành động</span>
-                  <h4>Assasin Creed</h4>
-                  <a href="product-details.html">
+                  <h4>Săn quân huy</h4>
+                  <Link to="/product-details">
                     <i className="fa fa-shopping-bag" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="section most-played">
+
+      <div className="most-played">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
               <div className="section-heading">
-                <h6>TOP GAMES</h6>
-                <h2>Được nhiều người chơi</h2>
+                <h6>Tin tức</h6>
+                <h2>Tin tức mới nhất</h2>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="main-button">
-                <a href="shop.html">Xem tất cả</a>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6 col-sm-6">
-              <div className="item">
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/top-game-01.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="down-content">
-                  <span className="category">Phiêu lưu</span>
-                  <h4>Assasin Creed</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6 col-sm-6">
-              <div className="item">
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/top-game-02.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="down-content">
-                  <span className="category">Phiêu lưu</span>
-                  <h4>Assasin Creed</h4>
+            <div className="row trending-box">
+              <div className="col-lg-4 col-md-12 align-self-center mb-30 trending-items col-md-12 adv">
+                <div className="item">
+                  <div className="thumb">
+                    <Link
+                        to="https://lienquan.garena.vn/bung-no-chuoi-su-kien-cong-dong-toan-quoc-sinh-nhat-lien-quan-8-tuoi-gom-qua-gop-sang-ngay-12-10-13-10/">
+                      <img
+                          src="assets/images/news1.png"
+                          style={{height: "250px", transition: "transform 0.3s ease"}}
+                          alt=""
+                          onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                          onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                      />
+                    </Link>
+                    <div style={{padding: "15px", textTransform: "uppercase"}}>BÙNG NỔ CHUỖI SỰ KIỆN CỘNG ĐỒNG TOÀN QUỐC SINH NHẬT LIÊN QUÂN 8 TUỔI
+                      “GOM QUÀ – GÓP SÁNG” | NGÀY 12/10 – 13/10
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-2 col-md-6 col-sm-6">
-              <div className="item">
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/top-game-03.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="down-content">
-                  <span className="category">Phiêu lưu</span>
-                  <h4>Assasin Creed</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6 col-sm-6">
-              <div className="item">
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/top-game-04.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="down-content">
-                  <span className="category">Phiêu lưu</span>
-                  <h4>Assasin Creed</h4>
+              <div className="col-lg-4 col-md-12 align-self-center mb-30 trending-items col-md-12 adv">
+                <div className="item">
+                  <div className="thumb">
+                    <Link to="/#">
+                      <img
+                          src="assets/images/news2.jpg"
+                          style={{height: "250px", transition: "transform 0.3s ease"}}
+                          alt=""
+                          onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                          onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                      />
+                    </Link>
+                    <div style={{padding: "15px", textTransform: "uppercase" }}>Tổng hợp chuỗi sự kiện hợp tác thương hiệu: Liên Quân x Demon Slayer: Kimetsu no Yaiba
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-2 col-md-6 col-sm-6">
-              <div className="item">
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/top-game-05.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="down-content">
-                  <span className="category">Phiêu lưu</span>
-                  <h4>Assasin Creed</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6 col-sm-6">
-              <div className="item">
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/top-game-06.jpg" alt="" />
-                  </a>
-                </div>
-                <div className="down-content">
-                  <span className="category">Phiêu lưu</span>
-                  <h4>Assasin Creed</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="section categories">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <div className="section-heading">
-                <h6>Thể loại</h6>
-                <h2>Top thể loại game được ưa chuộng</h2>
-              </div>
-            </div>
-            <div className="col-lg col-sm-6 col-xs-12">
-              <div className="item">
-                <h4>Hành động</h4>
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/categories-01.jpg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg col-sm-6 col-xs-12">
-              <div className="item">
-                <h4>Hành động</h4>
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/categories-05.jpg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg col-sm-6 col-xs-12">
-              <div className="item">
-                <h4>Hành động</h4>
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/categories-03.jpg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg col-sm-6 col-xs-12">
-              <div className="item">
-                <h4>Hành động</h4>
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/categories-04.jpg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg col-sm-6 col-xs-12">
-              <div className="item">
-                <h4>Hành động</h4>
-                <div className="thumb">
-                  <a href="product-details.html">
-                    <img src="assets/images/categories-05.jpg" alt="" />
-                  </a>
+              <div className="col-lg-4 col-md-12 align-self-center mb-30 trending-items col-md-12 adv">
+                <div className="item">
+                  <div className="thumb">
+                    <Link to="/#">
+                      <img
+                          src="assets/images/new3.png"
+                          style={{height: "250px", transition: "transform 0.3s ease"}}
+                          alt=""
+                          onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                          onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
+                      />
+                    </Link>
+                    <div style={{padding: "15px", textTransform: "uppercase"}}>11:00 NGÀY 01/10 MỞ BÁN VÉ THAM DỰ CHUNG KẾT ĐTDV MÙA ĐÔNG 2024 (27/10) TẠI TICKETBOX
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

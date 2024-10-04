@@ -47,7 +47,7 @@ const Checkout = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h3>Check Out</h3>
+              <h3>Thanh Toán</h3>
             </div>
           </div>
         </div>
@@ -60,15 +60,15 @@ const Checkout = () => {
               <div className="checkout-form">
                 <div className="row">
                   <div className="col-12">
-                    <h4>Order Summary</h4>
+                    <h4>Chi tiết đơn hàng</h4>
 
                     <table className="table table-bordered" style={{ marginTop: "30px" }}>
                       <thead>
                         <tr>
-                          <th scope="col">Product</th>
-                          <th scope="col">Quantity</th>
-                          <th scope="col">Price</th>
-                          <th scope="col">Subtotal</th>
+                          <th scope="col">Sản phẩm</th>
+                          <th scope="col">Số lượng</th>
+                          <th scope="col">Giá</th>
+                          <th scope="col">Giá tạm tính</th>
                         </tr>
                       </thead>
 
@@ -91,7 +91,7 @@ const Checkout = () => {
 
                         <tr>
                           <td colSpan="3" className="text-right">
-                            Total
+                            Giá tổng
                           </td>
                           <td style={{ color: "#0071f8" }}>320,000đ</td>
                         </tr>

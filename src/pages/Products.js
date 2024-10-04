@@ -8,7 +8,7 @@ const Products = () => {
               <div className="container">
                   <div className="row">
                       <div className="col-lg-12">
-                          <h3>Our Shop</h3>
+                          <h3>Sản phẩm</h3>
                           <span className="breadcrumb">
               </span>
                       </div>
@@ -17,20 +17,6 @@ const Products = () => {
           </div>
           <div className="section trending">
               <div className="container">
-                  <ul className="trending-filter">
-                      <li>
-                          <a className="is_active" href="#!" data-filter="*">Show All</a>
-                      </li>
-                      <li>
-                          <a href="#!" data-filter=".adv">Adventure</a>
-                      </li>
-                      <li>
-                          <a href="#!" data-filter=".str">Strategy</a>
-                      </li>
-                      <li>
-                          <a href="#!" data-filter=".rac">Racing</a>
-                      </li>
-                  </ul>
                   {/* categories */}
                   <h1 className="title text-center">Nick liên quân tự chọn</h1>
                   <div className="row trending-box" style={{paddingBottom: "40px"}}>
@@ -349,10 +335,9 @@ const Products = () => {
                               <div className="thumb">
                                   <Link to="/product-details"><img src="assets/images/product1.jpg"
                                                                    style={{height: "230px"}} alt=""/></Link>
-                                  <span className="price"><em>532,000đ</em>320,000đ</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Liên Quân J143</h4>
                                   <Link to="/product-details"><i className="fa fa-shopping-bag"></i></Link>
                               </div>
@@ -362,10 +347,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""/></a>
-                                  <span className="price"><em>$32</em>$22</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -375,10 +359,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""/></a>
-                                  <span className="price"><em>$45</em>$30</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -388,10 +371,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""/></a>
-                                  <span className="price"><em>$32</em>$22</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -401,10 +383,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""/></a>
-                                  <span className="price"><em>$38</em>$26</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -414,10 +395,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""/></a>
-                                  <span className="price"><em>$30</em>$20</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -427,10 +407,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""/></a>
-                                  <span className="price"><em>$32</em>$22</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -440,10 +419,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""/></a>
-                                  <span className="price"><em>$32</em>$22</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -453,10 +431,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""/></a>
-                                  <span className="price"><em>$28</em>$20</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -466,10 +443,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""/></a>
-                                  <span className="price"><em>$26</em>$18</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -479,10 +455,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""/></a>
-                                  <span className="price"><em>$32</em>$24</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>
@@ -492,10 +467,9 @@ const Products = () => {
                           <div className="item">
                               <div className="thumb">
                                   <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""/></a>
-                                  <span className="price"><em>$45</em>$30</span>
                               </div>
                               <div className="down-content">
-                                  <span className="category">Action</span>
+                                  <span className="category">Hành động</span>
                                   <h4>Assasin Creed</h4>
                                   <a href="product-details.html"><i className="fa fa-shopping-bag"></i></a>
                               </div>

@@ -26,14 +26,14 @@ const BannerComponent = () => {
                 <Form.Group className="d-flex">
                     <Form.Control
                         type="text"
-                        placeholder="Type Something"
+                        placeholder="Tìm kiếm...."
                         id="searchText"
                         name="searchKeyword"
                         onKeyDown={(e) => {
                           console.log('>>> e', e.target.value);
                         }}
                     />
-                    <Button type="submit">Search Now</Button>
+                    <Button type="submit">Tìm kiếm</Button>
                   </Form.Group>
                 </Form>
               </div>
@@ -42,8 +42,6 @@ const BannerComponent = () => {
           <Col lg={{span: 4, offset: 2}}>
             <div className="right-image">
               <img src="assets/images/lien-quan-moble-s8-3.jpg" alt="" className="img-fluid" />
-              <span className="price">$22</span>
-              <span className="offer">-40%</span>
             </div>
           </Col>
         </Row>

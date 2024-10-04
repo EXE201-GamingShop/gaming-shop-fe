@@ -9,7 +9,7 @@ const ProductDetails = () => {
     Swal.fire({
       position: "top-end",
       icon: "success",
-      title: "Add to cart successfully",
+      title: "Đã thêm vào gian hàng!",
       showConfirmButton: false,
       timer: 1200,
     }).then((result) => {
@@ -25,7 +25,6 @@ const ProductDetails = () => {
             <div className="col-lg-12">
               <h3>Liên Quân J143</h3>
               <span className="breadcrumb">
-                <a href="#">Home</a>
                 <a href="#">Shop</a> Liên Quân J143
               </span>
             </div>
@@ -65,7 +64,7 @@ const ProductDetails = () => {
                 đổi thông tin và bảo mật tránh mất acc. Để thời gian quá lâu
                 không liên hệ, shop không hỗ trợ được ạ. (Xin chú ý).
               </p>
-              <form id="qty" action="#">
+              <form id="qty" Hành động="#">
                 <input
                   type="qty"
                   className="form-control"
@@ -74,7 +73,7 @@ const ProductDetails = () => {
                   placeholder="1"
                 />
                 <button type="button" onClick={addToCart}>
-                  <i className="fa fa-shopping-bag"></i> ADD TO CART
+                  <i className="fa fa-shopping-bag"></i> MUA NGAY
                 </button>
               </form>
             </div>
@@ -104,7 +103,7 @@ const ProductDetails = () => {
                           aria-controls="description"
                           aria-selected="true"
                         >
-                          Description
+                          Mô tả
                         </button>
                       </li>
                       <li className="nav-item" role="presentation">
@@ -118,7 +117,7 @@ const ProductDetails = () => {
                           aria-controls="reviews"
                           aria-selected="false"
                         >
-                          Reviews (3)
+                          Đánh giá (3)
                         </button>
                       </li>
                     </ul>
@@ -186,18 +185,18 @@ const ProductDetails = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="section-heading">
-                <h6>Action</h6>
-                <h2>Related Games</h2>
+                <h6>Hành động</h6>
+                <h2>Game liên quan</h2>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="main-button">
-                <a href="shop.html">View All</a>
+                <a href="shop.html">Xem tất cả</a>
               </div>
             </div>
             <div className="col-lg col-sm-6 col-xs-12">
               <div className="item">
-                <h4>Action</h4>
+                <h4>Hành động</h4>
                 <div className="thumb">
                   <a href="product-details.html">
                     <img src="assets/images/categories-01.jpg" alt="" />
@@ -207,7 +206,7 @@ const ProductDetails = () => {
             </div>
             <div className="col-lg col-sm-6 col-xs-12">
               <div className="item">
-                <h4>Action</h4>
+                <h4>Hành động</h4>
                 <div className="thumb">
                   <a href="product-details.html">
                     <img src="assets/images/categories-05.jpg" alt="" />
@@ -217,7 +216,7 @@ const ProductDetails = () => {
             </div>
             <div className="col-lg col-sm-6 col-xs-12">
               <div className="item">
-                <h4>Action</h4>
+                <h4>Hành động</h4>
                 <div className="thumb">
                   <a href="product-details.html">
                     <img src="assets/images/categories-03.jpg" alt="" />
@@ -227,7 +226,7 @@ const ProductDetails = () => {
             </div>
             <div className="col-lg col-sm-6 col-xs-12">
               <div className="item">
-                <h4>Action</h4>
+                <h4>Hành động</h4>
                 <div className="thumb">
                   <a href="product-details.html">
                     <img src="assets/images/categories-04.jpg" alt="" />
@@ -237,7 +236,7 @@ const ProductDetails = () => {
             </div>
             <div className="col-lg col-sm-6 col-xs-12">
               <div className="item">
-                <h4>Action</h4>
+                <h4>Hành động</h4>
                 <div className="thumb">
                   <a href="product-details.html">
                     <img src="assets/images/categories-05.jpg" alt="" />

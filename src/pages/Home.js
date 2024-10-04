@@ -175,6 +175,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="most-played">
         <div className="container">
           <div className="row">

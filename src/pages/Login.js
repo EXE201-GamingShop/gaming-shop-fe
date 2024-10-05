@@ -10,9 +10,9 @@ import {
   Image,
   Card,
 } from "react-bootstrap";
-import { Client, Account, OAuthProvider } from "appwrite";
+import { OAuthProvider } from "appwrite";
 
-const Login = () => {
+const Login = (props) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -30,11 +30,7 @@ const Login = () => {
   };
 
   const googleAuth = () => {
-    const client = new Client()
-      .setEndpoint("https://cloud.appwrite.io/v1")
-      .setProject(process.env.REACT_APP_APPWRITE_PROJECT_ID);
-
-    const account = new Account(client);
+    const { account } = props;
 
     const host = process.env.NODE_ENV === "production" ? "https://shopdichvugame.vercel.app" : "http://localhost:3000";
 

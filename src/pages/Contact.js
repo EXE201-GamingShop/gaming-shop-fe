@@ -7,7 +7,7 @@ function Contact() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h3>Hỗ trợ</h3>
+              <h3 style={{fontWeight: "bolder", fontFamily: "Times New Roman, serif"}}>Hỗ trợ</h3>
             </div>
           </div>
         </div>

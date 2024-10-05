@@ -86,7 +86,7 @@ const Products = () => {
                 />
               </div>
               <div className="col-lg-3 col-md-6 align-self-center mb-30">
-                <label className="form-label">Khảng giá</label>
+                <label className="form-label">Khoảng giá</label>
                 <select className="form-control" style={{ height: "40px" }}>
                   <option value="">Tất cả khoảng giá</option>
                   <option value="1">>100.000VNĐ</option>

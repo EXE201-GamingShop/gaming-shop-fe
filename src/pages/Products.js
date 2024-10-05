@@ -32,11 +32,11 @@ const Products = () => {
                               <label className="form-label">Khảng giá</label>
                               <select className="form-control" style={{height: "40px"}}>
                                   <option value="">Tất cả khoảng giá</option>
-                                  <option value="1">>100.000VNĐ</option>
-                                  <option value="2">>200.000VNĐ</option>
-                                  <option value="3">>300.000VNĐ</option>
-                                  <option value="4">>400.000VNĐ</option>
-                                  <option value="5">>500.000VNĐ</option>
+                                  <option value="1">100.000VNĐ</option>
+                                  <option value="2">200.000VNĐ</option>
+                                  <option value="3">300.000VNĐ</option>
+                                  <option value="4">400.000VNĐ</option>
+                                  <option value="5">500.000VNĐ</option>
                               </select>
                           </div>
                           <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">

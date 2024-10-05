@@ -2,7 +2,7 @@ import { Footer, Header, JsPreloader } from "./components";
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home, Login, Checkout, Products, ProductDetails, Register } from "./pages";
-import Account from "./pages/Account";
+import AccountDetail from "./pages/Account";
 import NotFound from "./pages/NotFound";
 import { Client, Account } from "appwrite";
 import { useState } from "react";
@@ -27,7 +27,6 @@ function App() {
           <Route path="/shop" element={<Products />} />
           <Route path="/login" element={<Login account={account} />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/account" element={<Account />} />
           <Route path="/account" element={<AccountDetail />} />
           <Route path="*" element={<NotFound />} />
           

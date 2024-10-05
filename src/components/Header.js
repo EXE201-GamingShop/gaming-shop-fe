@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Header = (props) => {
   const { user, setUser, account } = props;
+  const location = useLocation();
 
   const fetchUserInfo = async () => {
     if (user) return;
@@ -54,8 +55,8 @@ const Header = (props) => {
                   </Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link as={NavLink} to={"/login"} className="active">
-                    Đăng nhập
+                <Nav.Link as={NavLink} to={location.pathname === "/login" ? "/register" : "/login"} className="active">
+                    {location.pathname === "/login" ? "Đăng ký" : "Đăng nhập"}
                   </Nav.Link>
                 </li>
               </ul>

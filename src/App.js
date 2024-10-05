@@ -3,6 +3,7 @@ import { Footer, Header, JsPreloader } from "./components";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home, Login, Checkout, Products, ProductDetails, Register } from "./pages";
 import Account from "./pages/Account";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/account" element={<Account />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>

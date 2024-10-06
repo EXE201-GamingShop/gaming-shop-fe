@@ -54,90 +54,84 @@ const trendingItems = [
 
 const Products = () => {
   return (
-    <div>
-      <div className="page-heading header-text">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12" style={{ fontWeight: "bolder" }}>
-              <h3>Sản phẩm</h3>
-              <span className="breadcrumb"></span>
-            </div>
+      <div>
+          <div className="page-heading header-text">
+              <div className="container">
+                  <div className="row">
+                      <div className="col-lg-12" style={{fontWeight: "bolder"}}>
+                          <h3>Sản phẩm</h3>
+                          <span className="breadcrumb">
+              </span>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
-      <div className="section trending">
-        <div className="container">
-          <div style={{ marginBottom: "40px" }}>
-            <form className="row trending-filter" style={{ marginTop: "20px" }}>
-              <div className="col-lg-3 col-md-6 align-self-center mb-30">
-                <label className="form-label">Tìm kiếm</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Tìm kiếm"
-                />
-              </div>
-              <div className="col-lg-3 col-md-6 align-self-center mb-30">
-                <label className="form-label">Mã số</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Mã số"
-                />
-              </div>
-              <div className="col-lg-3 col-md-6 align-self-center mb-30">
-                <label className="form-label">Khoảng giá</label>
-                <select className="form-control" style={{ height: "40px" }}>
-                  <option value="">Tất cả khoảng giá</option>
-                  <option value="1">>100.000VNĐ</option>
-                  <option value="2">>200.000VNĐ</option>
-                  <option value="3">>300.000VNĐ</option>
-                  <option value="4">>400.000VNĐ</option>
-                  <option value="5">>500.000VNĐ</option>
-                </select>
-              </div>
-              <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
-                <label className="form-label">Trạng thái</label>
-                <select className="form-control" style={{ height: "40px" }}>
-                  <option value="">Trạng thái</option>
-                  <option value="1">Chưa bán</option>
-                  <option value="2">Đã bán</option>
-                </select>
-              </div>
-              <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
-                <label className="form-label">Acc từ 40 tướng</label>
-                <select className="form-control" style={{ height: "40px" }}>
-                  <option value="">Không chọn</option>
-                  <option value="1">Có</option>
-                  <option value="2">Không</option>
-                </select>
-              </div>
-              <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
-                <label className="form-label">Đổi được mật khẩu</label>
-                <select className="form-control" style={{ height: "40px" }}>
-                  <option value="">Không chọn</option>
-                  <option value="1">Có</option>
-                  <option value="2">Không</option>
-                </select>
-              </div>
-              <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
-                <label className="form-label">Acc Vip</label>
-                <select className="form-control" style={{ height: "40px" }}>
-                  <option value="">Không chọn</option>
-                  <option value="1">Có</option>
-                  <option value="2">Không</option>
-                </select>
-              </div>
-              <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
-                <label className="form-label">Skin SSS</label>
-                <select className="form-control" style={{ height: "40px" }}>
-                  <option value="">Không chọn</option>
-                  <option value="1">Có</option>
-                  <option value="2">Không</option>
-                </select>
-              </div>
-            </form>
-          </div>
+          <div className="section trending">
+              <div className="container">
+
+                  <div style={{marginBottom: "40px"}}>
+                      <form className="row trending-filter" style={{marginTop: "20px"}}>
+                          <div className="col-lg-3 col-md-6 align-self-center mb-30">
+                              <label className="form-label">Tìm kiếm</label>
+                              <input type="text" className="form-control" placeholder="Tìm kiếm"/>
+                          </div>
+                          <div className="col-lg-3 col-md-6 align-self-center mb-30">
+                              <label className="form-label">Mã số</label>
+                              <input type="text" className="form-control" placeholder="Mã số"/>
+                          </div>
+                          <div className="col-lg-3 col-md-6 align-self-center mb-30">
+                              <label className="form-label">Khảng giá</label>
+                              <select className="form-control" style={{height: "40px"}}>
+                                  <option value="">Tất cả khoảng giá</option>
+                                  <option value="1">100.000VNĐ</option>
+                                  <option value="2">200.000VNĐ</option>
+                                  <option value="3">300.000VNĐ</option>
+                                  <option value="4">400.000VNĐ</option>
+                                  <option value="5">500.000VNĐ</option>
+                              </select>
+                          </div>
+                          <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
+                              <label className="form-label">Trạng thái</label>
+                              <select className="form-control" style={{height: "40px"}}>
+                                  <option value="">Trạng thái</option>
+                                  <option value="1">Chưa bán</option>
+                                  <option value="2">Đã bán</option>
+                              </select>
+                          </div>
+                          <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
+                              <label className="form-label">Acc từ 40 tướng</label>
+                              <select className="form-control" style={{height: "40px"}}>
+                                  <option value="">Không chọn</option>
+                                  <option value="1">Có</option>
+                                  <option value="2">Không</option>
+                              </select>
+                          </div>
+                          <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
+                              <label className="form-label">Đổi được mật khẩu</label>
+                              <select className="form-control" style={{height: "40px"}}>
+                                  <option value="">Không chọn</option>
+                                  <option value="1">Có</option>
+                                  <option value="2">Không</option>
+                              </select>
+                          </div>
+                          <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
+                              <label className="form-label">Acc Vip</label>
+                              <select className="form-control" style={{height: "40px"}}>
+                                  <option value="">Không chọn</option>
+                                  <option value="1">Có</option>
+                                  <option value="2">Không</option>
+                              </select>
+                          </div>
+                          <div className="col-lg-3 col-md-6 align-self-center mb-30 mt-3">
+                              <label className="form-label">Skin SSS</label>
+                              <select className="form-control" style={{height: "40px"}}>
+                                  <option value="">Không chọn</option>
+                                  <option value="1">Có</option>
+                                  <option value="2">Không</option>
+                              </select>
+                          </div>
+                      </form>
+                  </div>
 
           {/* categories */}
           <h1 className="title text-center">Nick liên quân tự chọn</h1>

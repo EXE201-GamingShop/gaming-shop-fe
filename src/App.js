@@ -1,7 +1,7 @@
 import { Footer, Header, JsPreloader } from "./components";
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home, Login, Checkout, Products, ProductDetails, Register, AccountDetail, NotFound, Contact } from "./pages";
+import { Home, Login, Checkout, Products, ProductDetails, Register, AccountDetail, NotFound, PurchaseHistory } from "./pages";
 import { Client, Account } from "appwrite";
 import { useState } from "react";
 
@@ -26,7 +26,7 @@ function App() {
           <Route path="/login" element={<Login account={account} />} />
           <Route path="/register" element={<Register />} />
           <Route path="/account" element={<AccountDetail />} />
-
+          <Route path="/purchasehistory" element={<PurchaseHistory />} />
           <Route path="*" element={<NotFound />} />
           
         </Routes>

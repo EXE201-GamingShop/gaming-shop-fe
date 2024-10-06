@@ -5,7 +5,7 @@ import Products from "./Products";
 import Login from "./Login";
 import Register from "./Register";
 import Account from "./Account";
-import Contact from "./Contact";
+import PurchaseHistory from "./PurchaseHistory";
 import NotFound from "./NotFound";
 
 
@@ -16,7 +16,7 @@ export {
   Products,
   Login,
   Register,
-  Contact,
+  PurchaseHistory,
   Account as AccountDetail,
   NotFound
 }

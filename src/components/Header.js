@@ -50,8 +50,8 @@ const Header = (props) => {
                   </Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link as={NavLink} to={"/contact"} className="active fw-bold">
-                    Hỗ trợ
+                  <Nav.Link as={NavLink} to={"/purchasehistory"} className="active fw-bold">
+                    Lịch sử giao dịch
                   </Nav.Link>
                 </li>
                 <li>

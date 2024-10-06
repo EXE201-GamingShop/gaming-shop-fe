@@ -7,7 +7,7 @@ import Register from "./Register";
 import Account from "./Account";
 import PurchaseHistory from "./PurchaseHistory";
 import NotFound from "./NotFound";
-
+import AllProduct from "./AllProduct";
 
 export {
   Home,
@@ -17,6 +17,7 @@ export {
   Login,
   Register,
   PurchaseHistory,
+  AllProduct,
   Account as AccountDetail,
   NotFound
 }

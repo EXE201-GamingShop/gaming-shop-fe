@@ -78,7 +78,7 @@ const Home = () => {
               </a>
             </div>
 
-            <div className="col-lg-6 col-md-12 mt-5">
+            <div className="col-lg-4 col-md-12 mt-5">
               <a href="#">
                 <div className="item">
                   <div className="image">
@@ -92,7 +92,7 @@ const Home = () => {
                 </div>
               </a>
             </div>
-            <div className="col-lg-6 col-md-12 mt-5">
+            <div className="col-lg-4 col-md-12 mt-5">
               <a href="#">
                 <div className="item">
                   <div className="image">
@@ -103,6 +103,20 @@ const Home = () => {
                     />
                   </div>
                   <h4>Hỗ trợ tài khoản game</h4>
+                </div>
+              </a>
+            </div>
+            <div className="col-lg-4 col-md-12 mt-5">
+              <a href="https://t.me/siucapvippro_bot">
+                <div className="item">
+                  <div className="image">
+                    <img
+                      src="assets/images/featured-01.png"
+                      alt=""
+                      style={{ maxWidth: 44 }}
+                    />
+                  </div>
+                  <h4>Ghép Ảnh</h4>
                 </div>
               </a>
             </div>

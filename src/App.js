@@ -1,5 +1,5 @@
 import { Footer, Header, JsPreloader } from "./components";
-
+import StickyIcon from './components/StickyIcon';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home, Login, Checkout, Products, ProductDetails, Register, AccountDetail, NotFound, PurchaseHistory, AllProduct } from "./pages";
 import { Client, Account } from "appwrite";
@@ -29,8 +29,8 @@ function App() {
           <Route path="/purchasehistory" element={<PurchaseHistory />} />
           <Route path="/allproducts" element={<AllProduct />} />
           <Route path="*" element={<NotFound />} />
-          
         </Routes>
+        <StickyIcon />
         <Footer />
       </BrowserRouter>
     </div>

@@ -111,7 +111,7 @@ const Home = () => {
                 <div className="item">
                   <div className="image">
                     <img
-                      src="assets/images/featured-01.png"
+                      src="assets/images/images.png"
                       alt=""
                       style={{ maxWidth: 44 }}
                     />

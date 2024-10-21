@@ -21,7 +21,7 @@ const StickyIcons = () => {
             width: '60px',
             height: '60px',
             borderRadius: '50%',
-            backgroundColor: '#1877F2',
+            // backgroundColor: '#189bf2',
             boxShadow: '0 2px 5px rgba(0,0,0,0.3)',
             transition: 'transform 0.3s ease',
             overflow: 'hidden', 
@@ -30,7 +30,7 @@ const StickyIcons = () => {
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <img 
-            src="assets/images/fac.png" 
+            src="assets/images/fb.png" 
             alt="Facebook Icon"
             style={{
               width: '100%',
@@ -52,7 +52,7 @@ const StickyIcons = () => {
             width: '60px',
             height: '60px',
             borderRadius: '50%',
-            backgroundColor: '#1877F2', 
+            // backgroundColor: '#1877F2', 
             boxShadow: '0 2px 5px rgba(0,0,0,0.3)',
             transition: 'transform 0.3s ease',
             overflow: 'hidden', 

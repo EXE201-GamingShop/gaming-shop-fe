@@ -21,7 +21,7 @@ const StickyIcons = () => {
             width: '60px',
             height: '60px',
             borderRadius: '50%',
-            // backgroundColor: '#189bf2',
+            backgroundColor: '#189bf2',
             boxShadow: '0 2px 5px rgba(0,0,0,0.3)',
             transition: 'transform 0.3s ease',
             overflow: 'hidden', 
